@@ -9,7 +9,13 @@
             "hash": "8cc0d67a92a72da19f408e432208ee3ec76cc618a8ae2fb235578e985db45909"
         }
     },
-    "bin": "influx.exe",
+    "persist": "influxdb.conf",
+    "bin": [
+        "influx.exe",
+        "influx_inspect.exe",
+        "influx_stress.exe",
+        "influxd.exe"
+    ],
     "checkver": {
         "url": "https://portal.influxdata.com/versions.json",
         "jsonpath": "$.influxdb_stable.version",
