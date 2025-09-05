@@ -22,8 +22,7 @@
                 "hash": {
                     "url": "https://portal.influxdata.com/versions.json",
                     "jsonpath": "$.influxdb_stable.downloads[?(@.platform =~ /^Windows/)].sha256"
-                },
-                "extract_dir": "influxdb-$version-1"
+                }
             }
         }
     }
