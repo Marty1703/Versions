@@ -10,13 +10,10 @@
             "extract_dir": "influxdb"
         }
     },
-    "extract_dir": "",
-    "persist": "influxdb.conf",
-    "bin": [
-        "influx.exe",
-        "influx_inspect.exe",
-        "influx_stress.exe",
-        "influxd.exe"
+    "shortcuts": [
+        [
+            "influx.exe",
+        ]
     ],
     "checkver": {
         "url": "https://portal.influxdata.com/versions.json",
